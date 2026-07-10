@@ -8,3 +8,4 @@ sphinx
 sphinx_rtd_theme
 sphinx-argparse
 myst-parser
+flake8
