@@ -1,4 +1,10 @@
 *~
 pnp.egg-info
 __pycache__
+.ipynb_checkpoints/
+public
+
 src/pnp/_version.py
+
+/.quarto/
+**/*.quarto_ipynb
