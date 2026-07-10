@@ -4,3 +4,7 @@ jupytext
 numpy
 matplotlib
 pytest
+sphinx
+sphinx_rtd_theme
+sphinx-argparse
+myst-parser

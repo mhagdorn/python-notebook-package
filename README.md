@@ -5,6 +5,9 @@ research project where the problem is initally explored in a
 notebook. Reusable functions of the notebook are subsequently moved to
 a Python package.
 
+This skeleton package contains a simple package computing Fibonacci
+numbers, associated tests, a notebook that can be rendered using
+quarto and sphinx documentation.
 
 ## Installation
 1. Create a virtual environment and activate it: 
@@ -24,6 +27,11 @@ python3 -m pip install -e .
 ## Running the Tests
 ```bash
 python3 -m pytest
+```
+
+## Producing the Sphinx Documentation
+```bash
+sphinx-build -b html doc public
 ```
 
 ## Rendering the Document
