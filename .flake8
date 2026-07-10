@@ -1,0 +1,9 @@
+[flake8]
+ignore = W503
+exclude = .git,__pycache__,build,dist,.eggs,
+  doc,notebooks,.ipynb_checkpoints,venv
+max-complexity = 10
+per-file-ignores =
+    # imported but unused
+    __init__.py: F401
+
