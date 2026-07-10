@@ -3,6 +3,7 @@ pnp.egg-info
 __pycache__
 .ipynb_checkpoints/
 public
+build
 
 src/pnp/_version.py
 
