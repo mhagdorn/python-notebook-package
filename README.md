@@ -21,6 +21,11 @@ python3 -m pip install -r requirements.txt
 python3 -m pip install -e .
 ```
 
+## Running the Tests
+```bash
+python3 -m pytest
+```
+
 ## Rendering the Document
 If you have [quarto](https://quarto.org/) installed you can render the
 notebook to pdf and html using

@@ -3,3 +3,4 @@ ipykernel
 jupytext
 numpy
 matplotlib
+pytest
