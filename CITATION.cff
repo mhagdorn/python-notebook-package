@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Python Notebook and Package Demonstration
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Magnus
+    family-names: Hagdorn
+    email: magnus.hagdorn@charite.de
+    affiliation: Charité Universitätsmedizin Berlin
+    orcid: 'https://orcid.org/0000-0002-5076-4864'
+repository-code: 'https://github.com/mhagdorn/python-notebook-package'
+abstract: >-
+  This project demonstrates how you can develop a Python
+  package together with Jupyter Notebooks.
+
+  This skeleton package contains a simple package computing Fibonacci
+  numbers, associated tests, a notebook that can be rendered using
+  quarto and sphinx documentation.
+license: GPL-3.0
