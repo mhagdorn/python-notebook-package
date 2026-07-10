@@ -9,6 +9,8 @@ This skeleton package contains a simple package computing Fibonacci
 numbers, associated tests, a notebook that can be rendered using
 quarto and sphinx documentation.
 
+[![DOI](https://zenodo.org/badge/1296427036.svg)](https://doi.org/10.5281/zenodo.21297691)
+
 ## Installation
 1. Create a virtual environment and activate it: 
 ```bash

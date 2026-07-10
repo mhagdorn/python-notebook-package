@@ -3,6 +3,11 @@
 
 cff-version: 1.2.0
 title: Python Notebook and Package Demonstration
+version: 1.0.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21297692
+date-released: 2026-07-10
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
