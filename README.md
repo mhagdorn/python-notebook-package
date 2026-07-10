@@ -38,7 +38,6 @@ sphinx-build -b html doc public
 If you have [quarto](https://quarto.org/) installed you can render the
 notebook to pdf and html using
 ```bash
-quarto render notebooks/demo.ipynb --to html,pdf --output-dir
-../public
+quarto render notebooks/demo.ipynb --to html,pdf --output-dir ../public
 ```
 The output files will be stored in the `public` directory.
