@@ -1,6 +1,7 @@
 import pytest
 from pnp import fibonacci
 
+
 @pytest.mark.parametrize(
     "n, result",
     [
@@ -12,7 +13,7 @@ from pnp import fibonacci
     ])
 def test_fibonacci(n, result):
     assert list(fibonacci(n)) == result
-        
+
 
 def test_fibonacci_broken():
     with pytest.raises(ValueError):
