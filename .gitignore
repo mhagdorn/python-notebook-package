@@ -4,6 +4,7 @@ __pycache__
 .ipynb_checkpoints/
 public
 build
+dist
 
 src/pnp/_version.py
 
