@@ -23,6 +23,7 @@ jobs:
           python3 -m build -s 
       - name: Release
         uses: softprops/action-gh-release@v3
-        working_directory: dist
-        files: |
-          pnp-*.tar.gz
+        with:
+          working_directory: dist
+          files: |
+            pnp-*.tar.gz
