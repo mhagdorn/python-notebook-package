@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+      - name: Build
+        run: |
+          python3 -m build -s 
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        working_directory: dist
+        files: |
+          pnp-*.tar.gz
