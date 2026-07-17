@@ -1,6 +1,6 @@
 import argparse
 from .fibonacci import fibonacci
-from ._version import __version__
+from . import __version__
 
 
 def arg_parser():
