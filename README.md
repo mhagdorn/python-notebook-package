@@ -44,6 +44,3 @@ quarto render notebooks/demo.ipynb --to html,pdf --output-dir ../public
 ```
 The output files will be stored in the `public` directory.
 
-
-## Releases
-Releases are created manually by editing [__version__.py](src/pnp/__version__.py). This ensures that the generated archive on zenodo is buildable.
